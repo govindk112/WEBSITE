@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background: url('./pexels-david-besh-884788.jpg') no-repeat;
+    background-size: cover;
+   
+}
+.block{
+    position: relative;
+    top: 100px;
+    width: 420px;
+    height: 50%;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid gray;
+    backdrop-filter: blur(20px);
+    box-shadow: rgba(255, 255, 255, .2);
+
+}
+.block h1{
+    font-size: 30px;
+    text-align: center;
+}
+.block .Page{
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+    position: relative;
+}
+.Page input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+
+}
+.Page input::placeholder{
+    color: #fff;
+
+}
+.Page i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.block .forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+}
+.forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+.forgot a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.block .button{
+    width: 100px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+
+
+}
+.block .link{
+    margin: 20px 0 15px;
+    font-size: 14px;
+    text-align: center;
+
+}
+.link p{
+    color: #fff;
+
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.link a:hover{
+    text-decoration: underline
+}
